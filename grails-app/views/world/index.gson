@@ -1,0 +1,8 @@
+import grails.rest.logicald.World
+
+model {
+	Iterable<World> worldList
+}
+
+json tmpl.world(worldList ?: [])
+

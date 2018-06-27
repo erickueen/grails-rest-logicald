@@ -1,0 +1,7 @@
+import grails.rest.logicald.World
+
+model {
+	World world
+}
+
+json g.render(world, [resolveTemplate: false])
