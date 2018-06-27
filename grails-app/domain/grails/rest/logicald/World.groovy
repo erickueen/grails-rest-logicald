@@ -1,6 +1,8 @@
 package grails.rest.logicald
 
-class World {
+import gorm.logical.delete.LogicalDelete
+
+class World implements LogicalDelete<World> {
 
     String field
 
