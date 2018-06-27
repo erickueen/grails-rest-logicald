@@ -60,7 +60,7 @@ dependencies {
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
 
     //Add gorm-logical-delete plugin
-    compile "org.grails.plugins:gorm-logical-delete:2.0.0.BUILD-SNAPSHOT"
+    compile fileTree(dir: 'lib', include: '*.jar')
 }
 
 bootRun {
