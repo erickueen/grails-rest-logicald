@@ -58,6 +58,9 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-chrome-driver:2.47.1"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+    #Add gorm-logical-delete plugin
+    compile "org.grails.plugins:gorm-logical-delete:2.0.0.BUILD-SNAPSHOT"
 }
 
 bootRun {
